@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "forem-bootstrap/version"
+require "hi_there_bootstrap/version"
 
 Gem::Specification.new do |s|
   s.name        = "hi_there_bootstrap"
