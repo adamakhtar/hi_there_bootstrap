@@ -1,0 +1,32 @@
+.email-interval-col {
+	text-align: right;
+	input {
+		display: inline;
+		width: 5em;
+	}
+}
+//Course list
+td.course-list-title {
+	width: 99%;
+}
+
+td.course-list-state {
+	white-space: nowrap;
+}
+
+//Course emails list
+td.course-emails-days {
+	// width: 150px;
+}
+
+td.course-emails-list-move {
+	.btn-group {
+		width: 55px;
+	}
+}
+
+td.course-emails-subject {
+	// width: calc(100% - 300px);
+	width: 99%;
+	white-space: nowrap;
+}

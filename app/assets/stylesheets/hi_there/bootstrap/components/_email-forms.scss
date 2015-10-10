@@ -1,0 +1,30 @@
+.edit_email,
+.new_email {
+	width: 100%;
+
+	@include app-sm {
+		max-width: 66%;
+	}
+
+	.input-row {
+		width: 100%;
+		@include clearfix;
+	}
+
+	.email_subject, .email_interval {
+		float: left;		
+	}
+
+	.email_subject {
+		width: calc(100% - 140px);
+	}
+
+	.email_interval {
+		width: 130px;
+		margin-left: 10px;
+	}
+
+	.email_body textarea 	{
+		min-height: measures(20);
+	}
+}

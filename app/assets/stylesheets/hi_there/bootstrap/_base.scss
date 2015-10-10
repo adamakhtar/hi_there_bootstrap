@@ -1,0 +1,11 @@
+// Import hi theres custom bootstrap variabes BEFORE bootstrap.
+@import "bootstrap-overrides";
+
+// From bootstrap-sass gem 
+@import "bootstrap-sprockets"; 
+@import "bootstrap";
+
+
+@import "mixins/base";
+@import "layouts/base";
+@import "components/base";

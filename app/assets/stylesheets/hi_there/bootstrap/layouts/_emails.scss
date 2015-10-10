@@ -1,0 +1,18 @@
+.email-header {
+	width: 100%;
+	display: table;
+}
+
+.email-subject, .email-interval {
+	display: table-cell;
+}
+
+.email-interval {
+	padding-bottom: measures(1);
+	font-style: italic;
+	color: $_text_quiet-color;
+}
+
+.email-body {
+	max-width: percentage(7/12);
+}

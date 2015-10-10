@@ -1,0 +1,32 @@
+.page-header {
+	padding: measures(3) 0;
+	background-color: $brand-primary;
+	margin: 0 0 measures(2);
+
+	.page-title {
+		color: $_brand-primary-inverse;
+
+		a {
+			color: inherit;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.page-title-meta {
+		color: $_brand-primary-inverse;
+		opacity: 0.6;
+
+		font-weight: normal;
+		font-style: italic;
+
+	}
+}
+
+
+.page-subtitle {
+	margin-top: 0px;
+	margin-bottom: measures(1);
+}

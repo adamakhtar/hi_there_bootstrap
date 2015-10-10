@@ -1,0 +1,15 @@
+table th.right {
+	text-align: right;
+}
+
+table.table th:first-child,
+table.table td:first-child {
+	padding-left: 0;
+}
+
+table.table th:last-child,
+table.table td:last-child {
+	padding-right: 0;
+}
+
+
