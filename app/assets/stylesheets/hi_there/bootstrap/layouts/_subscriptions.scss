@@ -1,0 +1,10 @@
+body.hi_there_subscriptions {
+	.sub-box {
+		margin-top: measures(2);
+
+		@include app-xs {
+			width: 460px;
+			margin: measures(6) auto;
+		}
+	}
+}
