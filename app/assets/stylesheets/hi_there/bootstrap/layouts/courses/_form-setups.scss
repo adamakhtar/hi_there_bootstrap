@@ -1,0 +1,9 @@
+body.hi_there_form_setups {
+	.text-column {
+
+		@include app-sm {
+			max-width: 66%;
+		}
+
+	}
+}

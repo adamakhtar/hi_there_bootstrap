@@ -1,0 +1,29 @@
+.page-subnav {
+	padding-top: measures(1);
+	background-color: darken($brand-primary, 5);
+	margin-bottom: measures(2);
+
+	.page-header + & {
+		margin-top: -$page-header-margin-bottom - 1;
+	}
+
+	.nav-tabs {
+		border: none;
+	}
+
+	.nav-tabs > li {
+		border: none;
+	}
+
+	// not active tabs	
+	.nav-tabs > li:not(.active) > a {
+		color: #fff;
+		opacity: 0.7;
+	}
+
+	.nav-tabs > li:not(.active) > a:hover {
+		opacity: 1;
+		border-color: transparent;
+		background-color: transparent;
+	}
+}

@@ -5,6 +5,9 @@
 @import "bootstrap-sprockets"; 
 @import "bootstrap";
 
+// Load theme vars after bootstrap so we can use 
+// the bootstrap vars.
+@import "theme-variables"; 
 
 @import "mixins/base";
 @import "layouts/base";
